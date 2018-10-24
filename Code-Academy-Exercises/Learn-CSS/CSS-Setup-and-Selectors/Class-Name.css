@@ -1,0 +1,8 @@
+h1 {
+  color: maroon;
+}
+.title {
+  color: teal;
+}
+
+/*CSS is not limited to selecting elements.You can select an element by its class attribute.*/
