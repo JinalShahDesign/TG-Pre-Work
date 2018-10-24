@@ -1,0 +1,16 @@
+h1 {
+  color: maroon;
+}
+.title {
+  color: teal;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+  <h1 id="article-title" class="title uppercase">Top Vacation Spots</h1>
+/*If you want to override class on a particular HTML element then you can add an ID. Use id attribute within the element.Use hashtag in the CSS document and create an id attribute in the HTML document.*/
