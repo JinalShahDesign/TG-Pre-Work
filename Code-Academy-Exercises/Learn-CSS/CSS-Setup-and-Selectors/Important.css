@@ -1,0 +1,36 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+h2.destination {
+  font-family: cursive;
+}
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.description h5 {
+  color:teal;
+}
+
+h5 {
+  color: rebeccapurple !important;
+}
+/*!important is even more specific then IDs. It can be applied to specific attributes instead of full rules.It will override any style no matter how specific.It should not be used because it's hard to override. Instead of using !important reorganize your CSS it's more beneficial in the long run.*/
