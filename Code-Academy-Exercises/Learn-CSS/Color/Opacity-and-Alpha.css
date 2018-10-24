@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.midground {
+  background-color: hsla(225, 100%, 25%, 0.4);
+}
+
+.foreground {
+  background-color: hsla(325, 50%, 50%, 0.6);
+}
+
+/*To add opacity to HSL add an a. hsla will allow you to control the opacity of the color. Alpha is used to control opacity. The same rule is used for RGB. So using rgba will add an element of opacity. Opacity is displayed using a number between 0-1. There is a color keyword for 0 opacity (transparent) and it's used like a named color.*/
