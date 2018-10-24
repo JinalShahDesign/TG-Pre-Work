@@ -1,0 +1,7 @@
+}
+.publish-time {
+  color: gray;
+}
+
+<h6 class="publish-time">Published: 2 Days Ago</h6>
+/* CSS classes are meant to be reused over many elements.You can style in different ways by mixing classes on HTML elements. An ID is meant to only style one element.*/

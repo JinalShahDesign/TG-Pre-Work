@@ -1,0 +1,30 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* It's best to use style elements with the lowest degree of specificity. IDs are the most specific, then classes, and then tags. The only way to override an ID is with another ID. */
+
+<h1 class="title cursive capitalize" >Top Vacation Spots</h1>
