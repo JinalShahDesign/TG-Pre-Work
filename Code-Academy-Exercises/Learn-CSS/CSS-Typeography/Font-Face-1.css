@@ -1,0 +1,4 @@
+/*You can import fonts directly into stylesheets with the @font-face property.
+Instead of entering the URL into the HTML document put it in your browser.
+The browser will load the CSS rules. Copy each of the CSS rules labeled latin and paste the rules into your stylesheet.
+They must be on top of the stylesheet for the font to load properly.*/
