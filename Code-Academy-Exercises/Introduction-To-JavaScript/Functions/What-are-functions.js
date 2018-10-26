@@ -1,0 +1,1 @@
+//In programming, we use code to perform a specific task multiple times instead of rewriting the same code. A block of code that is reusable is called a function.  In this lesson you will learn how to create functions.
