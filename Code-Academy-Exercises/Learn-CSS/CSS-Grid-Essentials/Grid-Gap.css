@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:400px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+  grid-gap: 20px 5px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+/*Grid gap are the space between CSS properties grid row and grid column. The grid-gap-column and grid-gap-row can be combined to the grid-gap properties. The first values are for the row and the values for rows and columns are NOT separated by /. */

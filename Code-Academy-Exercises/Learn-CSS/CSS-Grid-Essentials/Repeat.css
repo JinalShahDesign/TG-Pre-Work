@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+/*The repeat function was created specifically for CSS Grid. The repeart function will duplicate the specification for rows or columns a given numbe rof times. Repeat is useful with fraction and repeat can have multiple values.*/
