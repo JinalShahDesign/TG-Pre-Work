@@ -1,0 +1,2 @@
+/*The seventh type of data is objects. This opens our code to more complex possibilites.
+JavaScript objects are containers storing related data and functionality.*/
