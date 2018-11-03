@@ -1,0 +1,2 @@
+/*When multiple classes share properties or methods they become candidates for inheritance.
+With inheritance you can create a parent class with properties and methods that multiple child classes share.*/
