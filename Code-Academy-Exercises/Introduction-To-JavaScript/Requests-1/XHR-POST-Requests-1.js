@@ -1,0 +1,2 @@
+/*In this exercise I signed up for an API key and learned the essence of making a GET request.
+The POST request requires additional information to be sent through requests. */

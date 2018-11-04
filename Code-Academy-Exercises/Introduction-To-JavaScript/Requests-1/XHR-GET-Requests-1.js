@@ -1,0 +1,2 @@
+/*AJAX enables requests to be made after the initial page load.
+Initially, AJAX was used only for XML formatted data, now it can be used to make requests that have many different formats.*/
