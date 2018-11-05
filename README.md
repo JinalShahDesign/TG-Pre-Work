@@ -38,4 +38,4 @@ Runtime describes software/instructions that are executed while your program is 
 
 ## How many instances of the the databases connected to the server application are created?
 
-Everytime the database is accessed to pull data by the web server an instance is created.
+Every time the database is accessed to pull data by the web server an instance is created.
