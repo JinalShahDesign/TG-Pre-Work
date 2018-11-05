@@ -2,7 +2,7 @@
 
 ## When we hit https://www.techtonicgroup.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions.
 
-When you put in the URL (IP address) the client-side computer (my computer) will retrieve information from a server through my browser. A server is a can be considered a dedicated computer always connected to the internet. It will use the HTTP protocol and all the webpages on the website will be retrieved. 
+Once you put in the URL the browser checks the cache for a DNS record to find the corresponding IP address. Browser initiates a TCP connection with the server.The browser sends an HTTP request to the web server.The server handles the request and sends back a response.The server sends out an HTTP response.The browser displays the HTML content.
 
 ## From start to finish how does that data reach you to be rendered in the browser?
 
@@ -26,11 +26,11 @@ Client-side code is written using HTML, CSS, and JavaScript — it is run inside
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+For each HTTP request the server will create an instance of the client side assets.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+There's only one instance of the server-side code at any given time.
 
 ## What is runtime?
 
@@ -38,4 +38,4 @@ Runtime describes software/instructions that are executed while your program is 
 
 ## How many instances of the the databases connected to the server application are created?
 
-put your answer here
+Everytime the database is accessed to pull data by the web server an instance is created.
